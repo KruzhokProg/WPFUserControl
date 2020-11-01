@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFUserControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUserControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:RhombusControl Header="First" Description="First Description" coloredSource="Assets/audi_a4.jpg"/>
+            <local:RhombusControl Header="Second" Description="Second Description" coloredSource="Assets/taxi.jpg"/>
+            <local:RhombusControl Header="Third" Description="Third Description" coloredSource="Assets/втб.png"/>
+            <local:RhombusControl Header="Fourth" Description="Fourth Description" coloredSource="Assets/сбербанк.png"/>
+        </StackPanel>
+    </Grid>
+</Window>
